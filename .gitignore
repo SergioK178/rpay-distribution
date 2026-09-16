@@ -1,0 +1,6 @@
+*.deb
+SHA256SUMS
+SHA256SUMS.asc
+dist/
+tmp/
+
