@@ -4,6 +4,7 @@ set -eu
 REPO="https://github.com/SergioK178/rpay-distribution"
 BASE="$REPO/releases/latest/download"
 TMP="$(mktemp -d)"
+chmod 755 "$TMP"
 
 cleanup() {
     rm -rf "$TMP"
@@ -32,6 +33,7 @@ if [ "$ARCH" != "amd64" ]; then
 fi
 
 curl -fL "$BASE/rpay_amd64.deb" -o "$TMP/rpay_amd64.deb"
+chmod 644 "$TMP/rpay_amd64.deb"
 curl -fL "$BASE/SHA256SUMS" -o "$TMP/SHA256SUMS"
 
 (
