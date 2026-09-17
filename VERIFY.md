@@ -20,7 +20,7 @@ gpg --fingerprint 'rpay Release Signing'
 Compare the fingerprint with the release fingerprint published by the project maintainer through an independent trusted channel:
 
 ```text
-Fingerprint: TO BE PUBLISHED
+Fingerprint: 38679AC26C1301E382E0DD3AA5A08B9510CFF266
 ```
 
 Do not trust a key solely because it was downloaded from the same release repository.
