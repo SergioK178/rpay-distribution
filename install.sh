@@ -1,8 +1,7 @@
 #!/bin/sh
 set -eu
 
-# Replace <OWNER> with the GitHub account or organization that owns this repo.
-REPO="https://github.com/<OWNER>/rpay-distribution"
+REPO="https://github.com/SergioK178/rpay-distribution"
 BASE="$REPO/releases/latest/download"
 TMP="$(mktemp -d)"
 

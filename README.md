@@ -2,13 +2,13 @@
 
 This is the public distribution repository for `rpay` releases.
 
-The repository contains the installer and release verification material. Binary packages are published as assets in [GitHub Releases](https://github.com/<OWNER>/rpay-distribution/releases), not committed to git.
+The repository contains the installer and release verification material. Binary packages are published as assets in [GitHub Releases](https://github.com/SergioK178/rpay-distribution/releases), not committed to git.
 
 ## Install
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/<OWNER>/rpay-distribution/main/install.sh \
+  https://raw.githubusercontent.com/SergioK178/rpay-distribution/main/install.sh \
   | sudo sh
 ```
 
@@ -18,7 +18,7 @@ The package does not automatically start or enable the `rpay` service. Service b
 
 ## Manual installation
 
-Download `rpay_amd64.deb` from the appropriate [release](https://github.com/<OWNER>/rpay-distribution/releases), verify it using [VERIFY.md](VERIFY.md), and install it with:
+Download `rpay_amd64.deb` from the appropriate [release](https://github.com/SergioK178/rpay-distribution/releases), verify it using [VERIFY.md](VERIFY.md), and install it with:
 
 ```bash
 sudo apt install ./rpay_amd64.deb
@@ -29,4 +29,3 @@ sudo apt install ./rpay_amd64.deb
 - Debian or Ubuntu
 - Linux `amd64`
 - systemd-based installations
-
