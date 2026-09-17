@@ -69,3 +69,6 @@ else
     echo "Warning: sovereign-node was not found after installation." >&2
 fi
 echo "rpay installed successfully."
+echo
+echo "Next:"
+echo "  sudo rpay-setup --public-ip <SERVER_PUBLIC_IP>"
