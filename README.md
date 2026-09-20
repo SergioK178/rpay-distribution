@@ -51,7 +51,7 @@ v0.1.1-rc.1 is a release candidate and is not distributed through the stable
 install script. Download the versioned package from the [v0.1.1-rc.1 pre-release](https://github.com/SergioK178/rpay-distribution/releases/tag/v0.1.1-rc.1), verify it using [VERIFY.md](VERIFY.md), then install it directly:
 
 ```bash
-sudo apt install ./rpay_0.1.1~rc1-1_amd64.deb
+sudo apt install ./rpay_0.1.1-rc1-1_amd64.deb
 ```
 
 Do not use `install.sh` for this RC: it deliberately follows GitHub's stable
